@@ -13,7 +13,7 @@
   // do the job
   // -----------
   window.addEventListener('beforeunload', function(){
-    return 'sure?';
+    return 'douban.fm';
   });
 })();
 
