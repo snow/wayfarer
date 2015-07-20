@@ -12,8 +12,12 @@
 
   // do the job
   // -----------
-  window.addEventListener('beforeunload', function(){
+  window.onbeforeunload = function(){
     return 'douban.fm';
-  });
-})();
+  };
 
+  // doesn't work anymore
+  // window.addEventListener('beforeunload', function(){
+  //   return 'douban.fm';
+  // });
+})();
